@@ -28,7 +28,7 @@ console.log("New String after Modification:", newStr);
 // After Attempting to Change First Character: hello
 // New String after Modification: Hello */
 
-// mutable array example
+/* mutable array example
 let arr = ['h', 'e', 'l', 'l', 'o'];
 console.log("Original Array:", arr);
 
@@ -50,4 +50,17 @@ obj.firstChar = 'H';
 console.log("Object after Modification:", obj);
 
 // Original Object: { firstChar: 'h', secondChar: 'e' }
-// Object after Modification: { firstChar: 'H', secondChar: 'e' }
+// Object after Modification: { firstChar: 'H', secondChar: 'e' } */
+
+let arr1 = ['v,', 'i', 's', 'h', 'a', 'l'];
+console.log("Original Array:", arr1);
+
+arr1.push ='y'; // adding an element at the end
+console.log("Array after push operation:", arr1);
+
+arr1[0] = 'Vishal'; // modifying the first element
+console.log("Array after modifying first element:", arr1);
+
+// Original Array: [ 'v,', 'i', 's', 'h', 'a', 'l' ]
+// Array after push operation: [ 'v,', 'i', 's', 'h', 'a', 'l' ]
+// Array after modifying first element: [ 'Vishal', 'i', 's', 'h', 'a', 'l' ]
