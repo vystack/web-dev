@@ -27,3 +27,27 @@ console.log("New String after Modification:", newStr);
 // First Character: h
 // After Attempting to Change First Character: hello
 // New String after Modification: Hello */
+
+// mutable array example
+let arr = ['h', 'e', 'l', 'l', 'o'];
+console.log("Original Array:", arr);
+
+// changing the first element
+arr[0] = 'H';
+console.log("Array after Modification:", arr);
+
+// Original Array: [ 'h', 'e', 'l', 'l', 'o' ]
+// Array after Modification: [ 'H', 'e', 'l', 'l', 'o' ]
+
+// mutable object example
+let obj = { firstChar: 'v', 
+            secondChar: 'y'
+          };
+console.log("Original Object:", obj);
+
+// changing a property
+obj.firstChar = 'H';
+console.log("Object after Modification:", obj);
+
+// Original Object: { firstChar: 'h', secondChar: 'e' }
+// Object after Modification: { firstChar: 'H', secondChar: 'e' }
