@@ -66,4 +66,50 @@ function greet() {
 console.log("Function:", greet, typeof greet);
 */
 
+/* Explanation of storage units from Byte up to Yottabyte (decimal and binary/IEC),
+// showing unit name, symbol, bytes (decimal: 1 KB = 1000 B) and bytes (binary/IEC: 1 KiB = 1024 B).
 
+const names = [
+  "Byte", "Kilobyte", "Megabyte", "Gigabyte",
+  "Terabyte", "Petabyte", "Exabyte", "Zettabyte", "Yottabyte"
+];
+const symbols = ["B","KB","MB","GB","TB","PB","EB","ZB","YB"];
+const iecSymbols = ["B","KiB","MiB","GiB","TiB","PiB","EiB","ZiB","YiB"];
+
+// Use BigInt to represent exact byte counts for large units
+let decimal = 1n; // 1 byte
+let binary = 1n;  // 1 byte (for IEC progression)
+console.log("Unit\t\tSymbol\tIEC Symbol\tBytes (decimal)\t\tBytes (binary/IEC)");
+for (let i = 0; i < names.length; i++) {
+  const name = names[i];
+  const sym = symbols[i];
+  const iec = iecSymbols[i];
+  console.log(
+    `${name.padEnd(8)}\t${sym}\t\t${iec}\t\t${decimal.toString()} B\t\t${binary.toString()} B`
+  );
+  decimal *= 1000n; // next decimal unit (KB = 1000 B)
+  binary *= 1024n;  // next binary/IEC unit (KiB = 1024 B)
+}
+
+ Quick reference conversions (decimal)
+ 1 KB = 1,000 B
+ 1 MB = 1,000,000 B (10^6)
+ 1 GB = 1,000,000,000 B (10^9)
+ 1 TB = 1,000,000,000,000 B (10^12)
+ 1 PB = 10^15 B
+ 1 EB = 10^18 B
+ 1 ZB = 10^21 B
+ 1 YB = 10^24 B
+
+ Quick reference conversions (binary/IEC)
+ 1 KiB = 1,024 B
+ 1 MiB = 1,048,576 B (1024^2)
+ 1 GiB = 1,073,741,824 B (1024^3)
+ 1 TiB = 1024^4 B
+ 1 PiB = 1024^5 B
+ 1 EiB = 1024^6 B
+ 1 ZiB = 1024^7 B
+ 1 YiB = 1024^8 B 
+ */
+
+ 
