@@ -52,6 +52,7 @@ console.log("Object after Modification:", obj);
 // Original Object: { firstChar: 'h', secondChar: 'e' }
 // Object after Modification: { firstChar: 'H', secondChar: 'e' } */
 
+/* mutable array example
 let arr1 = ['v,', 'i', 's', 'h', 'a', 'l'];
 console.log("Original Array:", arr1);
 
@@ -63,4 +64,5 @@ console.log("Array after modifying first element:", arr1);
 
 // Original Array: [ 'v,', 'i', 's', 'h', 'a', 'l' ]
 // Array after push operation: [ 'v,', 'i', 's', 'h', 'a', 'l' ]
-// Array after modifying first element: [ 'Vishal', 'i', 's', 'h', 'a', 'l' ]
+// Array after modifying first element: [ 'Vishal', 'i', 's', 'h', 'a', 'l' ] */
+
