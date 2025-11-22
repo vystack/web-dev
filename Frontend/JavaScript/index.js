@@ -231,3 +231,10 @@ instanceof constructor
 let date = new Date();
 console.log("date instanceof Date:", date instanceof Date); // true
 */
+
+/* Spread Operator is used to expand elements of an iterable (like an array) or properties of an object.
+...iterable
+let arr1 = [1, 2, 3];
+let arr2 = [...arr1, 4, 5]; // [1, 2, 3, 4, 5]
+console.log("arr2:", arr2);
+*/
