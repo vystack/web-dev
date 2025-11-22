@@ -215,3 +215,13 @@ let age = 18;
 let canVote = (age >= 18) ? "Yes" : "No";
 console.log("Can vote:", canVote); // Yes
 */
+
+/* Typeof Operator is used to determine the type of a variable or expression.
+
+typeof variable
+let value = 42;
+let name = "Vishal";
+console.log("Type of value:", typeof value); // number
+console.log("Type of name:", typeof name);   // strings
+
+*/
