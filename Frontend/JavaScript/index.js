@@ -128,6 +128,7 @@ for (let i = 0; i < names.length; i++) {
 */
 
 /* Arithmetic Operators are used to perform mathematical operations on numbers.
+
 + Addition operator
 - Subtraction operator
 * Multiplication operator 
@@ -156,6 +157,7 @@ console.log("Decrement:", --b);          // 2
 */
 
 /* Assignment Operators are used to assign values to variables.
+
 = Simple assignment operator
 += Addition assignment operator
 -= Subtraction assignment operator
@@ -168,4 +170,27 @@ x -= 2;     // x = x - 2; now x is 6
 x *= 4;     // x = x * 4; now x is 24
 x /= 6;     // x = x / 6; now x is 4
 console.log("Final value of x:", x); // 4
+*/
+
+/* Comparison Operators are used to compare two values and return a boolean result.
+
+== Equal to operator (loose equality)
+/=== Strict equal to operator
+!= Not equal to operator (loose inequality)
+/!== Strict not equal to operator
+> Greater than operator
+< Less than operator
+>= Greater than or equal to operator
+<= Less than or equal to operator
+
+let p = 10;
+let q = "10";
+console.log("p == q:", p == q);          // true (loose equality)
+console.log("p === q:", p === q);        // false (strict equality)
+console.log("p != q:", p != q);          // false (loose inequality)
+console.log("p !== q:", p !== q);        // true (strict inequality)
+console.log("p > 5:", p > 5);            // true
+console.log("p < 15:", p < 15);         // true
+console.log("p >= 10:", p >= 10);        // true
+console.log("p <= 9:", p <= 9);          // false
 */
