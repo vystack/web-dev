@@ -112,4 +112,17 @@ for (let i = 0; i < names.length; i++) {
  1 YiB = 1024^8 B 
  */
 
- 
+ /* Operators in JavaScript
+
+-- Arithmetic Operators: +, -, *, /, %, ++, --
+-- Assignment Operators: =, +=, -=, *=, /=
+-- Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+-- Logical Operators: &&, ||, !
+-- Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+-- Ternary Operator: condition ? expr1 : expr2
+-- Typeof Operator: typeof
+-- Instanceof Operator: instanceof
+-- Spread Operator: ...
+-- Nullish Coalescing Operator: ??
+-- Optional Chaining Operator: ?.
+*/
