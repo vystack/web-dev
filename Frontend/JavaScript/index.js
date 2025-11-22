@@ -126,3 +126,31 @@ for (let i = 0; i < names.length; i++) {
 -- Nullish Coalescing Operator: ??
 -- Optional Chaining Operator: ?.
 */
+
+/* Arithmetic Operators are used to perform mathematical operations on numbers.
++ Addition operator
+- Subtraction operator
+* Multiplication operator 
+/ Division operator
+% Modulus operator (remainder)
+
+/ Increment operator
+  Increment operator are of two types:
+  1. Prefix Increment: ++variable (increments the value before using it)  
+  2. Postfix Increment: variable++ (uses the value first, then increments it)
+
+-- Decrement operator
+  Decrement operator are of two types:
+  1. Prefix Decrement: --variable (decrements the value before using it)  
+  2. Postfix Decrement: variable-- (uses the value first, then decrements it)
+
+let a = 10;
+let b = 3; 
+console.log("Addition:", a + b);          // 13
+console.log("Subtraction:", a - b);       // 7
+console.log("Multiplication:", a * b);    // 30
+console.log("Division:", a / b);         // 3.3333...
+console.log("Modulus:", a % b);          // 1
+console.log("Increment:", ++a);          // 11
+console.log("Decrement:", --b);          // 2 
+*/
