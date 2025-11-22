@@ -223,5 +223,11 @@ let value = 42;
 let name = "Vishal";
 console.log("Type of value:", typeof value); // number
 console.log("Type of name:", typeof name);   // strings
+*/
 
+/* Instanceof Operator is used to check if an object is an instance of a specific class or constructor.
+
+instanceof constructor
+let date = new Date();
+console.log("date instanceof Date:", date instanceof Date); // true
 */
