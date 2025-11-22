@@ -207,3 +207,11 @@ console.log("a && b:", a && b); // false
 console.log("a || b:", a || b); // true
 console.log("!a:", !a);         // false
 */
+
+/* Ternary Operator is a shorthand for an if-else statement.
+
+condition ? expr1 : expr2   
+let age = 18;
+let canVote = (age >= 18) ? "Yes" : "No";
+console.log("Can vote:", canVote); // Yes
+*/
