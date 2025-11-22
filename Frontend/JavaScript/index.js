@@ -154,3 +154,18 @@ console.log("Modulus:", a % b);          // 1
 console.log("Increment:", ++a);          // 11
 console.log("Decrement:", --b);          // 2 
 */
+
+/* Assignment Operators are used to assign values to variables.
+= Simple assignment operator
++= Addition assignment operator
+-= Subtraction assignment operator
+*= Multiplication assignment operator
+/= Division assignment operator
+
+let x = 5;          // Simple assignment
+x += 3;     // x = x + 3; now x is 8
+x -= 2;     // x = x - 2; now x is 6
+x *= 4;     // x = x * 4; now x is 24
+x /= 6;     // x = x / 6; now x is 4
+console.log("Final value of x:", x); // 4
+*/
