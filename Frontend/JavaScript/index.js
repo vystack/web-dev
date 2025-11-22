@@ -194,3 +194,16 @@ console.log("p < 15:", p < 15);         // true
 console.log("p >= 10:", p >= 10);        // true
 console.log("p <= 9:", p <= 9);          // false
 */
+
+/* Logical Operators are used to combine multiple boolean expressions.
+
+&& Logical AND operator
+|| Logical OR operator
+! Logical NOT operator
+
+let a = true;
+let b = false;    
+console.log("a && b:", a && b); // false
+console.log("a || b:", a || b); // true
+console.log("!a:", !a);         // false
+*/
