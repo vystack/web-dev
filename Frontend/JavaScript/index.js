@@ -246,3 +246,12 @@ let defaultText = "Default";
 let displayText = userInput ?? defaultText;
 console.log("Display Text:", displayText); // Default
 */
+
+/* Optional Chaining Operator is used to safely access nested object properties.
+object?.property
+let user = { name: "Vishal", address: { city: "New York" } };
+let city = user.address?.city;  // "New York"
+let zip = user.address?.zip;      // undefined (no error)
+console.log("City:", city);
+console.log("Zip:", zip);
+*/
