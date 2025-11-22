@@ -238,3 +238,11 @@ let arr1 = [1, 2, 3];
 let arr2 = [...arr1, 4, 5]; // [1, 2, 3, 4, 5]
 console.log("arr2:", arr2);
 */
+
+/* Nullish Coalescing Operator is used to provide a default value when dealing with null or undefined.
+variable ?? defaultValue
+let userInput = null;
+let defaultText = "Default";
+let displayText = userInput ?? defaultText;
+console.log("Display Text:", displayText); // Default
+*/
