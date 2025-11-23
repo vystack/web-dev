@@ -255,3 +255,15 @@ let zip = user.address?.zip;      // undefined (no error)
 console.log("City:", city);
 console.log("Zip:", zip);
 */
+
+/* stack and heap memory in JavaScript
+
+Stack Memory:
+- store heap memory address of heap memory
+
+Heap Memory: 
+- heap address stored in stack memory
+- stores immutable data types (numbers, strings, booleans, etc.)
+- stores mutable data types (objects, arrays, functions, etc.)
+*/
+
