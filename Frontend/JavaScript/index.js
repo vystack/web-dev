@@ -267,3 +267,10 @@ Heap Memory:
 - stores mutable data types (objects, arrays, functions, etc.)
 */
 
+/* Garbage Collection in JavaScript
+- automatic memory management
+- automatic memory cleanup
+- automatic memory deallocation
+- check data is used or not if data in used it's mark true and if data is not used it's mark false and deallocate memory
+*/
+
