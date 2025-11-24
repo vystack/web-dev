@@ -274,3 +274,17 @@ Heap Memory:
 - check data is used or not if data in used it's mark true and if data is not used it's mark false and deallocate memory
 */
 
+/* Memory Leaks in JavaScript
+- memory that is no longer needed but not released
+- causes performance issues
+- common causes:
+  1. Global Variables 
+  2. Forgotten Timers or Callbacks
+  3. Detached DOM Elements
+  4. Closures retaining references
+- prevention:
+  1. Use local variables  
+  2. Clear timers and callbacks
+  3. Remove references to unused DOM elements
+  4. Be cautious with closures
+*/
