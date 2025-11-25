@@ -302,3 +302,12 @@ Heap Memory:
 -- Increment (++): Increases a number by one.
 -- Decrement (--): Decreases a number by one.
 
+2. Assignment Operators: =, +=, -=, *=, /=, %=
+-> Used to assign values to variables.
+-- Simple Assignment (=): Assigns a value to a variable.
+-- Addition Assignment (+=): Adds a value to a variable and assigns the result.
+-- Subtraction Assignment (-=): Subtracts a value from a variable and assigns the result.
+-- Multiplication Assignment (*=): Multiplies a variable by a value and assigns the result.
+-- Division Assignment (/=): Divides a variable by a value and assigns the result.
+-- Modulus Assignment (%=): Applies modulus operation and assigns the result.
+
