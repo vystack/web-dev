@@ -338,3 +338,8 @@ Heap Memory:
 -- Right Shift (>>): Shifts bits to the right.
 -- Unsigned Right Shift (>>>): Shifts bits to the right, filling with zeros.
 
+6. Ternary Operator: condition ? expr1 : expr2
+-> A shorthand for an if-else statement.
+-- Evaluates a condition and returns expr1 if true, otherwise returns expr2.
+
+
