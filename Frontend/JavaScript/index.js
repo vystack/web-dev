@@ -288,3 +288,17 @@ Heap Memory:
   3. Remove references to unused DOM elements
   4. Be cautious with closures
 */
+
+/* Operators in JavaScript 
+
+1. Arithmetic Operators: +, -, *, /, %, **, ++, --
+-> Used for mathematical operations.
+-- Addition (+): Adds two numbers.
+-- Subtraction (-): Subtracts one number from another.
+-- Multiplication (*): Multiplies two numbers.
+-- Division (/): Divides one number by another.
+-- Modulus (%): Returns the remainder of a division operation.
+-- Exponentiation (**): Raises a number to the power of another.
+-- Increment (++): Increases a number by one.
+-- Decrement (--): Decreases a number by one.
+
