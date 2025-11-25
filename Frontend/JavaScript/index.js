@@ -387,3 +387,31 @@ Heap Memory:
 -- console.log(typeof boolean (undefined)); // false 'boolean'
 */
 
+/* Truthy and Falsy Values in JavaScript
+
+- Truthy Values:
+-- Non-empty strings: "hello", "0", "false"
+-- Non-zero numbers: 1, -1, 3.14
+-- Objects: {}, []  
+-- Functions: function() {}
+-- true 
+
+- Falsy Values:
+-- Empty  string: ""
+-- Number 0: 0
+-- null
+-- undefined
+-- NaN
+-- false  
+
+-> Example:
+    let values = ["hello", "", 1, 0, {}, null, undefined, [], NaN, true, false];  
+    values.forEach(value => {
+      if (value) {
+        console.log(`${JSON.stringify(value)} is Truthy`);  
+      } else {
+        console.log(`${JSON.stringify(value)} is Falsy`);  
+      } 
+    });
+*/
+
