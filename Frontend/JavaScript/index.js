@@ -328,3 +328,13 @@ Heap Memory:
 -- Logical OR (||): Returns true if at least one operand is true.
 -- Logical NOT (!): Inverts the boolean value of an operand.
 
+5. Bitwise Operators: &, |, ^, ~, <<, >>, >>>
+-> Used to perform bit-level operations on integers.
+-- AND (&): Performs a bitwise AND operation.
+-- OR (|): Performs a bitwise OR operation.
+-- XOR (^): Performs a bitwise XOR operation.
+-- NOT (~): Inverts the bits of a number.
+-- Left Shift (<<): Shifts bits to the left.
+-- Right Shift (>>): Shifts bits to the right.
+-- Unsigned Right Shift (>>>): Shifts bits to the right, filling with zeros.
+
