@@ -76,4 +76,29 @@ console.log(!true);         // false */
     console.log(i);
 } */
 
-    
+/* Number
+let a = 10;
+let b = 21.5897;
+let c = b.toFixed(2);
+console.log("a:", a);
+console.log("b:", b);
+console.log("c:", c); */
+
+/*let number = 15;
+
+if (number % 2 === 0) {
+    console.log(`Number ${number} is Even`);
+} else {
+    console.log(`Number ${number} is Odd`);
+} */
+
+/*console.log(Math.sqrt(16)); // 4
+console.log(Math.pow(2, 3)); // 8
+console.log(Math.random()); // Random number between 0 and 1  
+console.log(Math.floor(4.7)); // 4
+console.log(Math.round(4.5)); // 5
+console.log(Math.ceil(4.2)); // 5
+console.log(Math.max(1, 5, 3, 9, 2)); // 9
+console.log(Math.min(1, 5, 3, 9, 2)); // 1
+*/
+console.log(Math.floor (Math.random()*10+1)); // random number between 1 to 10
