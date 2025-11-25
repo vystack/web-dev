@@ -346,4 +346,43 @@ Heap Memory:
 -> Used to determine the type of a variable or expression.
 -- Returns a string indicating the type (e.g., "number", "string", "object").
 
+/* Operators conversion in JavaScript
+
+- Type Coercion with Arithmetic Operators
+-- let sum = '5' - 2; // 3 (string '5' is converted to number)
+-- let product = '5' * '2'; // 10 (both strings are converted to numbers)
+-- let sum = '5' + 2; // '52' (number 2 is converted to string) // String Concatenation
+-- let result = true + 1; // 2 (true is converted to 1)
+-- let result = false + 1; // 1 (false is converted to 0)
+-- let result = null + 5; // 5 (null is converted to 0)
+-- let result = undefined + 5; // NaN (undefined is converted to NaN)
+-- let result = '10' / '2'; // 5 (both strings are converted to numbers)
+
+- Type Coercion with Comparison Operators
+-- let isEqual = '5' == 5; // true (string '5' is converted to number)
+-- let isNotEqual = '5' != 5; // false (string '5' is converted to number)
+-- let isGreater = '10' > 5; // true (string '10' is converted to number)
+-- let isLess = '3' < 5; // true (string '3' is converted to number)
+-- let isGreaterOrEqual = '5' >= 5; // true (string '5' is converted to number)
+-- let isLessOrEqual = '3' <= 5; // true (string '3' is converted to number)
+
+- Type Coercion with Logical Operators
+-- let result = 'Hello' && 42; // 42 (both operands are truthy, returns last operand)
+-- let result = 0 || 'World'; // 'World' (0 is falsy, returns second operand)
+-- let result = !'Hello'; // false (non-empty string is truthy, negation returns false)
+
+-> console.log examples:
+-- console.log(typeof ('5' + 2)); // 52 'string'
+-- console.log(typeof ('5' - 2)); // 3 'number'
+-- console.log(typeof ('10' / '2')); // 5 'number'
+-- console.log(typeof (true + 1)); // 2 'number'
+-- console.log(typeof ('5' == 5)); // true 'boolean'
+-- console.log(typeof boolean (true)); // 'boolean'
+-- console.log(typeof boolean (false)); // 'boolean'
+-- console.log(typeof boolean ('')); // false 'boolean'
+-- console.log(typeof boolean (0)); // false 'boolean'
+-- console.log(typeof boolean (1)); // true 'boolean'
+-- console.log(typeof boolean (null)); // false 'boolean'
+-- console.log(typeof boolean (undefined)); // false 'boolean'
+*/
 
