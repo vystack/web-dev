@@ -311,3 +311,13 @@ Heap Memory:
 -- Division Assignment (/=): Divides a variable by a value and assigns the result.
 -- Modulus Assignment (%=): Applies modulus operation and assigns the result.
 
+3. Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
+-> Used to compare two values.
+-- Equal to (==): Checks if two values are equal (type coercion).
+-- Strict Equal to (===): Checks if two values are equal (no type coercion).
+-- Not Equal to (!=): Checks if two values are not equal (type coercion).
+-- Strict Not Equal to (!==): Checks if two values are not equal (no type coercion).
+-- Greater than (>): Checks if the left value is greater than the right value.
+-- Less than (<): Checks if the left value is less than the right value.
+-- Greater than or Equal to (>=): Checks if the left value is greater than or equal to the right value.
+-- Less than or Equal to (<=): Checks if the left value is less than or equal to the right value. 
