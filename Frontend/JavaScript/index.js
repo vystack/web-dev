@@ -345,6 +345,7 @@ Heap Memory:
 7. Typeof Operator: typeof
 -> Used to determine the type of a variable or expression.
 -- Returns a string indicating the type (e.g., "number", "string", "object").
+*/
 
 /* Operators conversion in JavaScript
 
