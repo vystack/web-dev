@@ -66,3 +66,14 @@ console.log("Array after modifying first element:", arr1);
 // Array after push operation: [ 'v,', 'i', 's', 'h', 'a', 'l' ]
 // Array after modifying first element: [ 'Vishal', 'i', 's', 'h', 'a', 'l' ] */
 
+/* logical operator
+console.log(true && false); // false
+console.log(true && true); // true
+console.log(true || false); // true
+console.log(!true);         // false */
+
+/*for (let i = 0; i <= 5; i++) {
+    console.log(i);
+} */
+
+    

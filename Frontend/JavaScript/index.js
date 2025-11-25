@@ -1,4 +1,4 @@
-// node index.js
+// node Frontend/JavaScript/index.js
 
 /* --- JavaScript Data Types ---
 
