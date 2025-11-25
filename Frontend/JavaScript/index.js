@@ -321,3 +321,10 @@ Heap Memory:
 -- Less than (<): Checks if the left value is less than the right value.
 -- Greater than or Equal to (>=): Checks if the left value is greater than or equal to the right value.
 -- Less than or Equal to (<=): Checks if the left value is less than or equal to the right value. 
+
+4. Logical Operators: &&, ||, !
+-> Used to combine multiple boolean expressions.
+-- Logical AND (&&): Returns true if both operands are true.
+-- Logical OR (||): Returns true if at least one operand is true.
+-- Logical NOT (!): Inverts the boolean value of an operand.
+
