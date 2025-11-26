@@ -105,3 +105,4 @@ console.log(Math.floor(Math.random()*10)+1); // random number between 1 to 10
 console.log(Math.floor(Math.random()*6)+1); // random number between 1 to 6 (like dice)
 console.log(Math.floor(Math.random()*100)+1); // random number between 1 to 100
 console.log(Math.floor(Math.random()*50)+1); // random number between 1 to 50
+console.log(Math.floor(Math.random()*20)+1); // random number between 1 to 20
