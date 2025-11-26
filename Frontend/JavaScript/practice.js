@@ -101,7 +101,8 @@ console.log(Math.ceil(4.2)); // 5
 console.log(Math.max(1, 5, 3, 9, 2)); // 9
 console.log(Math.min(1, 5, 3, 9, 2)); // 1
 */
-console.log(Math.floor(Math.random()*10)+1); // random number between 1 to 10
+
+/*console.log(Math.floor(Math.random()*10)+1); // random number between 1 to 10
 console.log(Math.floor(Math.random()*6)+1); // random number between 1 to 6 (like dice)
 console.log(Math.floor(Math.random()*100)+1); // random number between 1 to 100
 console.log(Math.floor(Math.random()*50)+1); // random number between 1 to 50
@@ -110,4 +111,9 @@ console.log(Math.floor(Math.random()*500)+1); // random number between 1 to 500
 console.log(Math.floor(Math.random()*1000)+1); // random number between 1 to 1000
 console.log(Math.max(10, 50, 200, 1500, 750)); // 1500
 console.log(Math.min(10, 50, 200, 1500, 750)); // 10
+*/
 
+// Add random number generation for 1 to 100 in practice.js --- IGNORE ---
+function getRandomNumber1to100() {
+    return Math.floor(Math.random() * 100) + 1;
+}
