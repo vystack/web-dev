@@ -101,4 +101,5 @@ console.log(Math.ceil(4.2)); // 5
 console.log(Math.max(1, 5, 3, 9, 2)); // 9
 console.log(Math.min(1, 5, 3, 9, 2)); // 1
 */
-console.log(Math.floor (Math.random()*10+1)); // random number between 1 to 10
+console.log(Math.floor(Math.random()*10)+1); // random number between 1 to 10
+console.log(Math.floor(Math.random()*6)+1); // random number between 1 to 6 (like dice)
