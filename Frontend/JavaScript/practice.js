@@ -108,3 +108,5 @@ console.log(Math.floor(Math.random()*50)+1); // random number between 1 to 50
 console.log(Math.floor(Math.random()*20)+1); // random number between 1 to 20
 console.log(Math.floor(Math.random()*500)+1); // random number between 1 to 500
 console.log(Math.floor(Math.random()*1000)+1); // random number between 1 to 1000
+console.log(Math.max(10, 50, 200, 1500, 750)); // 1500
+
