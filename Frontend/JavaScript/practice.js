@@ -119,3 +119,7 @@ function getRandomNumber1to100() {
 }
 */
 
+/*15-25
+console.log(Math.floor(Math.random()*11)+15); // random number between 0 and 10
+console.log(Math.floor(Math.random()*(25-15+1)+11));
+*/
