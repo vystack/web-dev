@@ -113,7 +113,9 @@ console.log(Math.max(10, 50, 200, 1500, 750)); // 1500
 console.log(Math.min(10, 50, 200, 1500, 750)); // 10
 */
 
-// Add random number generation for 1 to 100 in practice.js --- IGNORE ---
+/* Add random number generation for 1 to 100 in practice.js --- IGNORE ---
 function getRandomNumber1to100() {
     return Math.floor(Math.random() * 100) + 1;
 }
+*/
+
