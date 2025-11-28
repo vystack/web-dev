@@ -123,3 +123,12 @@ function getRandomNumber1to100() {
 console.log(Math.floor(Math.random()*11)+15); // random number between 0 and 10
 console.log(Math.floor(Math.random()*(25-15+1)+11));
 */
+
+/* types of string literals in JavaScript
+let singleQuoteStr = 'Hello, World!';
+let doubleQuoteStr = "Hello, World!";
+let backtickStr = `Hello, World!`;
+console.log(singleQuoteStr);
+console.log(doubleQuoteStr);
+console.log(backtickStr);
+*/
