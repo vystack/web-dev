@@ -158,3 +158,8 @@ let MyVariable = 20; // PascalCase
 let my_variable = 30; // snake_case
 let my-variable = 40; // kebab-case (not allowed in JS)  
 */
+
+/* data types in JavaScript
+primitive data types: string, number, boolean, null, undefined, symbol, bigint
+non-primitive data types: object, array, function 
+*/
