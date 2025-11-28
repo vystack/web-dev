@@ -132,3 +132,11 @@ console.log(singleQuoteStr);
 console.log(doubleQuoteStr);
 console.log(backtickStr);
 */
+
+/* Using backticks for multi-line strings and interpolation
+let name = "Vishal";
+let multiLineStr = `Hello, ${name}! 
+Welcome to JavaScript string literals.
+Enjoy coding!`;
+console.log(multiLineStr);
+*/
