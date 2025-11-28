@@ -140,3 +140,14 @@ Welcome to JavaScript string literals.
 Enjoy coding!`;
 console.log(multiLineStr);
 */
+
+/*camelCase, PascalCase, snake_case, kebab-case
+let camelCaseVar = "This is camelCase";
+let PascalCaseVar = "This is PascalCase";
+let snake_case_var = "This is snake_case";
+let kebab_case_var = "This is kebab-case"; // Note: hyphens are not allowed in variable names
+console.log(camelCaseVar);
+console.log(PascalCaseVar);
+console.log(snake_case_var);
+console.log(kebab_case_var);
+*/
