@@ -151,3 +151,10 @@ console.log(PascalCaseVar);
 console.log(snake_case_var);
 console.log(kebab_case_var);
 */
+
+/* Variable naming conventions
+let myVariable = 10; // camelCase
+let MyVariable = 20; // PascalCase
+let my_variable = 30; // snake_case
+let my-variable = 40; // kebab-case (not allowed in JS)  
+*/
