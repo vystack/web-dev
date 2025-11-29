@@ -164,7 +164,11 @@ primitive data types: string, number, boolean, null, undefined, symbol, bigint
 non-primitive data types: object, array, function 
 */
 
-//upper case to lowercase and vice versa
+/* upper case to lowercase and vice versa
 let str = "Hello World";
 let upperStr = str.toUpperCase();  
 let lowerStr = str.toLowerCase();
+console.log("Original String:", str);
+console.log("Uppercase String:", upperStr);
+console.log("Lowercase String:", lowerStr);
+*/
