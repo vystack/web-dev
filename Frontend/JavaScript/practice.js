@@ -167,3 +167,4 @@ non-primitive data types: object, array, function
 //upper case to lowercase and vice versa
 let str = "Hello World";
 let upperStr = str.toUpperCase();  
+let lowerStr = str.toLowerCase();
