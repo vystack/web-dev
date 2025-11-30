@@ -179,6 +179,7 @@ let substring1 = str.slice(7, 14); // "welcome"
 console.log(substring1);
 */
 
-let intro = "Hi, I'm Vishal Yadav";
+/*let intro = "Hi, I'm Vishal Yadav";
 console.log(intro.indexOf("Vishal")); // 7
 console.log(intro.indexOf("Yadav")); // 14
+*/
