@@ -181,3 +181,4 @@ console.log(substring1);
 
 let intro = "Hi, I'm Vishal Yadav";
 console.log(intro.indexOf("Vishal")); // 7
+console.log(intro.indexOf("Yadav")); // 14
