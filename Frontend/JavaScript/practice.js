@@ -172,3 +172,7 @@ console.log("Original String:", str);
 console.log("Uppercase String:", upperStr);
 console.log("Lowercase String:", lowerStr);
 */
+
+// finding substring
+let str = "Hello, welcome to the world of JavaScript.";
+let substring1 = str.slice(7, 14); // "welcome"
