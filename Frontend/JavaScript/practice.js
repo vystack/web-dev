@@ -183,3 +183,9 @@ console.log(substring1);
 console.log(intro.indexOf("Vishal")); // 7
 console.log(intro.indexOf("Yadav")); // 14
 */
+
+/* string methods
+let str = "Hello, welcome to the world of JavaScript.";
+console.log(str.length); // 46
+*/
+
