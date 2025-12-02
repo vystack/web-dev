@@ -189,3 +189,8 @@ let str = "Hello, welcome to the world of JavaScript.";
 console.log(str.length); // 46
 */
 
+/* .includes()
+let str = "Hello, how are you?";
+console.log(str.includes("are")); // true
+*/
+
