@@ -446,3 +446,8 @@ console.log(str3.trim()); // "Hello World"
 let name = "Vishal";
 let greeting = `Hello, ${name}! Welcome to JavaScript.`;
 console.log(greeting); // Hello, Vishal! Welcome to JavaScript.
+//multi-line string
+let multiLineStr = `This is line 1.
+This is line 2.
+This is line 3.`;
+console.log(multiLineStr);
