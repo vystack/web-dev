@@ -439,3 +439,6 @@ console.log(concatenated.split(" ")); // [ 'Hello', 'World' ]
 console.log(concatenated.replace("World", "JavaScript")); // Hello JavaScript
 //includes
 console.log(concatenated.includes("Hello")); // true
+//trim
+let str3 = "   Hello World   ";
+console.log(str3.trim()); // "Hello World"
