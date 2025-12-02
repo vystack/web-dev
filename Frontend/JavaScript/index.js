@@ -423,4 +423,7 @@ console.log(concatenated); // Hello World
 
 //length
 console.log(concatenated.length); // 11
+//toUpperCase
+console.log(concatenated.toUpperCase()); // HELLO WORLD
+
 
