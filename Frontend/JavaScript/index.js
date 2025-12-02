@@ -451,3 +451,6 @@ let multiLineStr = `This is line 1.
 This is line 2.
 This is line 3.`;
 console.log(multiLineStr);
+//escape sequences
+let escapeStr = "He said, \"Hello World!\"\nWelcome to JavaScript.";
+console.log(escapeStr);
