@@ -429,3 +429,5 @@ console.log(concatenated.toUpperCase()); // HELLO WORLD
 console.log(concatenated.toLowerCase()); // hello world
 //charAt
 console.log(concatenated.charAt(0)); // H
+//indexOf
+console.log(concatenated.indexOf("World")); // 6
