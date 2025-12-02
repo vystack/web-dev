@@ -437,3 +437,5 @@ console.log(concatenated.substring(0, 5)); // Hello
 console.log(concatenated.split(" ")); // [ 'Hello', 'World' ]
 //replace
 console.log(concatenated.replace("World", "JavaScript")); // Hello JavaScript
+//includes
+console.log(concatenated.includes("Hello")); // true
