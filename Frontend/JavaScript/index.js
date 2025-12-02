@@ -415,3 +415,9 @@ Heap Memory:
     });
 */
 
+//string operations in JavaScript 
+let str1 = "Hello";
+let str2 = "World";
+let concatenated = str1 + " " + str2;
+console.log(concatenated); // Hello World
+
