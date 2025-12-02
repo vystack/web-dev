@@ -415,7 +415,7 @@ Heap Memory:
     });
 */
 
-//string operations in JavaScript 
+/*string operations in JavaScript 
 let str1 = "Hello";
 let str2 = "World";
 let concatenated = str1 + " " + str2;
@@ -453,4 +453,6 @@ This is line 3.`;
 console.log(multiLineStr);
 //escape sequences
 let escapeStr = "He said, \"Hello World!\"\nWelcome to JavaScript.";
-console.log(escapeStr);
+console.log(escapeStr); 
+*/
+
