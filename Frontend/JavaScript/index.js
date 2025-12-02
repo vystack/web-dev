@@ -435,3 +435,5 @@ console.log(concatenated.indexOf("World")); // 6
 console.log(concatenated.substring(0, 5)); // Hello
 //split
 console.log(concatenated.split(" ")); // [ 'Hello', 'World' ]
+//replace
+console.log(concatenated.replace("World", "JavaScript")); // Hello JavaScript
