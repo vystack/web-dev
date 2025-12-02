@@ -442,3 +442,7 @@ console.log(concatenated.includes("Hello")); // true
 //trim
 let str3 = "   Hello World   ";
 console.log(str3.trim()); // "Hello World"
+//template literals
+let name = "Vishal";
+let greeting = `Hello, ${name}! Welcome to JavaScript.`;
+console.log(greeting); // Hello, Vishal! Welcome to JavaScript.
