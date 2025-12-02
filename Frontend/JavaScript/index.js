@@ -431,3 +431,5 @@ console.log(concatenated.toLowerCase()); // hello world
 console.log(concatenated.charAt(0)); // H
 //indexOf
 console.log(concatenated.indexOf("World")); // 6
+//substring
+console.log(concatenated.substring(0, 5)); // Hello
