@@ -421,3 +421,6 @@ let str2 = "World";
 let concatenated = str1 + " " + str2;
 console.log(concatenated); // Hello World
 
+//length
+console.log(concatenated.length); // 11
+
