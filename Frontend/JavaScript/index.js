@@ -478,3 +478,8 @@ let fruit2 = "Banana";
 let fruit3 = "Orange";
 console.log(fruit1, fruit2, fruit3); // Apple Banana Orange */
 
+let fruits = ["Apple", "Banana", "Orange"];
+console.log(fruits); // [ 'Apple', 'Banana', 'Orange' ]
+console.log(fruits[0]); // Apple
+console.log(fruits.length); // 3
+
