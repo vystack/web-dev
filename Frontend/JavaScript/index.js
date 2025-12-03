@@ -456,7 +456,7 @@ let escapeStr = "He said, \"Hello World!\"\nWelcome to JavaScript.";
 console.log(escapeStr); 
 */
 
-// Date and Time in JavaScript
+/* Date and Time in JavaScript
 let now = new Date();
 console.log(now.toString());
 console.log("Year:", now.getFullYear()); // Year
@@ -470,3 +470,5 @@ console.log("Milliseconds:", now.getMilliseconds()); // Milliseconds
 // Create a specific date
 let specificDate = new Date("2023-01-01T10:00:00");
 console.log("Specific Date:", specificDate.toString());
+*/
+
