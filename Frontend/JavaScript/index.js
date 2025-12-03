@@ -466,3 +466,7 @@ console.log("Hours:", now.getHours()); // Hours
 console.log("Minutes:", now.getMinutes()); // Minutes
 console.log("Seconds:", now.getSeconds()); // Seconds
 console.log("Milliseconds:", now.getMilliseconds()); // Milliseconds
+
+// Create a specific date
+let specificDate = new Date("2023-01-01T10:00:00");
+console.log("Specific Date:", specificDate.toString());
