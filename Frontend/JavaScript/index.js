@@ -486,3 +486,7 @@ console.log(fruits.length); // 3
 fruits.push("Mango");
 console.log(fruits); // [ 'Apple', 'Banana', 'Orange', 'Mango' ]
 
+
+fruits.pop();
+console.log(fruits); // [ 'Apple', 'Banana', 'Orange' ]
+
