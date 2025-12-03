@@ -456,3 +456,6 @@ let escapeStr = "He said, \"Hello World!\"\nWelcome to JavaScript.";
 console.log(escapeStr); 
 */
 
+// Date and Time in JavaScript
+let now = new Date();
+console.log(now.toString());
