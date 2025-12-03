@@ -465,3 +465,4 @@ console.log("Date:", now.getDate()); // Day of the month
 console.log("Hours:", now.getHours()); // Hours
 console.log("Minutes:", now.getMinutes()); // Minutes
 console.log("Seconds:", now.getSeconds()); // Seconds
+console.log("Milliseconds:", now.getMilliseconds()); // Milliseconds
