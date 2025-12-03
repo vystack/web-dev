@@ -460,3 +460,4 @@ console.log(escapeStr);
 let now = new Date();
 console.log(now.toString());
 console.log("Year:", now.getFullYear()); // Year
+console.log("Month:", now.getMonth() + 1); // Months are zero-based
