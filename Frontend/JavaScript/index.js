@@ -490,3 +490,5 @@ console.log(fruits); // [ 'Apple', 'Banana', 'Orange', 'Mango' ]
 fruits.pop();
 console.log(fruits); // [ 'Apple', 'Banana', 'Orange' ]
 
+fruits.shift();
+console.log(fruits); // [ 'Banana', 'Orange' ]
