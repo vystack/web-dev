@@ -464,3 +464,4 @@ console.log("Month:", now.getMonth() + 1); // Months are zero-based
 console.log("Date:", now.getDate()); // Day of the month
 console.log("Hours:", now.getHours()); // Hours
 console.log("Minutes:", now.getMinutes()); // Minutes
+console.log("Seconds:", now.getSeconds()); // Seconds
