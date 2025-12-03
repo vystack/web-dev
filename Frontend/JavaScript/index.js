@@ -495,3 +495,6 @@ console.log(fruits); // [ 'Banana', 'Orange' ]
 
 fruits.unshift("Grapes");
 console.log(fruits); // [ 'Grapes', 'Banana', 'Orange' ]
+
+fruits.splice(1, 0, "Kiwi");
+console.log(fruits); // [ 'Grapes', 'Kiwi', 'Banana', 'Orange' ]
