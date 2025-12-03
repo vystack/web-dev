@@ -459,3 +459,4 @@ console.log(escapeStr);
 // Date and Time in JavaScript
 let now = new Date();
 console.log(now.toString());
+console.log("Year:", now.getFullYear()); // Year
