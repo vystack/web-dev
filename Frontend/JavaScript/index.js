@@ -492,3 +492,6 @@ console.log(fruits); // [ 'Apple', 'Banana', 'Orange' ]
 
 fruits.shift();
 console.log(fruits); // [ 'Banana', 'Orange' ]
+
+fruits.unshift("Grapes");
+console.log(fruits); // [ 'Grapes', 'Banana', 'Orange' ]
