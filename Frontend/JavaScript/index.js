@@ -462,3 +462,4 @@ console.log(now.toString());
 console.log("Year:", now.getFullYear()); // Year
 console.log("Month:", now.getMonth() + 1); // Months are zero-based
 console.log("Date:", now.getDate()); // Day of the month
+console.log("Hours:", now.getHours()); // Hours
