@@ -498,3 +498,6 @@ console.log(fruits); // [ 'Grapes', 'Banana', 'Orange' ]
 
 fruits.splice(1, 0, "Kiwi");
 console.log(fruits); // [ 'Grapes', 'Kiwi', 'Banana', 'Orange' ]
+
+let citrusFruits = fruits.slice(1, 3);
+console.log(citrusFruits); // [ 'Kiwi', 'Banana' ]
