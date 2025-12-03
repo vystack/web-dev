@@ -1,4 +1,4 @@
-// node Frontend/JavaScript/index.js
+// node Frontend/JavaScript/index.js node index.js
 
 /* --- JavaScript Data Types ---
 
@@ -471,4 +471,10 @@ console.log("Milliseconds:", now.getMilliseconds()); // Milliseconds
 let specificDate = new Date("2023-01-01T10:00:00");
 console.log("Specific Date:", specificDate.toString());
 */
+
+// Array
+let fruit1 = "Apple";
+let fruit2 = "Banana";
+let fruit3 = "Orange";
+console.log(fruit1, fruit2, fruit3); // Apple Banana Orange */
 
