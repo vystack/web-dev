@@ -501,3 +501,13 @@ console.log(fruits); // [ 'Grapes', 'Kiwi', 'Banana', 'Orange' ]
 
 let citrusFruits = fruits.slice(1, 3);
 console.log(citrusFruits); // [ 'Kiwi', 'Banana' ]
+
+let arr = [1, 2, 3, 4, 5, 10, 20, 30];
+for (let i = 0; i <arr.length; i++) {
+  console.log(arr[i]);
+}
+
+//for of loop
+for(let num of arr){
+  console.log(num);
+}
