@@ -548,5 +548,27 @@ let joinedElements = elements.join(', ');
 console.log(joinedElements); // Fire, Air, Water
 */
 
+// let fruits = ["Apple", "kiwi", "Banana", "Watermelon", "Mango", "Orange", "Papaya" ];
+
+// fruits.sort();
+// console.log(fruits); // Sorted Fruits: [ 'Apple', 'Banana', 'Mango', 'Orange', 'Papaya', 'Watermelon', 'kiwi' ]
+
+// fruits.reverse();
+// console.log(fruits); // Reversed Fruits: [ 'kiwi', 'Watermelon', 'Papaya', 'Orange', 'Mango', 'Banana', 'Apple' ]
+
+// let numbers = [10, 5, 20, 15, 30, 25];
+
+// numbers.sort();
+// console.log(numbers); // Sorted Numbers: [ 10, 15, 20, 25, 30, 5 ]
+
+// numbers.reverse();
+// console.log(numbers); // Reversed Numbers: [ 5, 30, 25, 20, 15, 10 ]
+
+// numbers.sort((a,b) => a-b);
+// console.log(numbers); // Sorted Numbers Ascending: [ 5, 10, 15, 20, 25, 30 ]
+
+// numbers.sort((a,b) => b-a);
+// console.log(numbers);
+
 
 //  node index.js
