@@ -472,11 +472,11 @@ let specificDate = new Date("2023-01-01T10:00:00");
 console.log("Specific Date:", specificDate.toString());
 */
 
-// Array
+/* Array
 let fruit1 = "Apple";
 let fruit2 = "Banana";
 let fruit3 = "Orange";
-console.log(fruit1, fruit2, fruit3); // Apple Banana Orange */
+console.log(fruit1, fruit2, fruit3); // Apple Banana Orange 
 
 let fruits = ["Apple", "Banana", "Orange"];
 console.log(fruits); // [ 'Apple', 'Banana', 'Orange' ]
@@ -510,4 +510,16 @@ for (let i = 0; i <arr.length; i++) {
 //for of loop
 for(let num of arr){
   console.log(num);
-}
+} 
+*/
+
+// Combine Arrays using concat method and spread operator 
+let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let arr3 = ["vishal", 2, true];
+
+console.log(arr1, arr2, arr3); // [ 1, 2, 3 ] [ 4, 5, 6 ] [ 'vishal', 2, true ]
+
+
+
+//node index.js
