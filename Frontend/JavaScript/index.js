@@ -571,7 +571,19 @@ numbers.sort((a,b) => b-a);
 console.log(numbers);
 */
 
+/* flatten() method in array
 
+let nestedArray = [1, 2, [6, 4], 3, [5, 9, [8, 7]]];
+
+ console.log(nestedArray); 
+
+ let num = nestedArray.flat(Infinity).sort((a,b) => a-b);
+console.log(num);
+
+for(let n of num){
+  console.log(n);
+}
+*/
 
 
 //  node index.js
