@@ -520,6 +520,11 @@ let arr3 = ["vishal", 2, true];
 
 console.log(arr1, arr2, arr3); // [ 1, 2, 3 ] [ 4, 5, 6 ] [ 'vishal', 2, true ]
 
+console.log(arr1.concat(arr2, arr3)); // [ 1, 2, 3, 4, 5, 6, 'vishal', 2, true ]
+
+// concat method
+let combineArr1 = arr1.concat(arr2, arr3);
+console.log(combineArr1); // [ 1, 2, 3, 4, 5, 6, 'vishal', 2, true ]
 
 
 //node index.js
