@@ -194,7 +194,7 @@ let str = "Hello, how are you?";
 console.log(str.includes("are")); // true
 */
 
-+/* Combine Arrays using concat method and spread operator and sort them
+/* Combine Arrays using concat method and spread operator and sort them
 // let arr1 = [1, 5, 4];
 // let arr2 = [3, 2];
 // let arr3 = [...arr1, ...arr2].sort((a,b) => a-b);
