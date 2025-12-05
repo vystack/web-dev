@@ -534,7 +534,7 @@ const arr2 = [2, 3];
 const arr3 = [arr1[0], ...arr2, arr1[1]];
 
 console.log(arr3); // [ 1, 2, 3, 4 ]
-*/
+
 
 // join method in array
 let elements = ['Fire', 'Air', 'Water'];
@@ -542,11 +542,11 @@ console.log(elements.join(`-`)); // Fire-Air-Water
 console.log(elements.join('')); // FireAirWater
 console.log(elements.join(' ')); // Fire Air Water
 console.log(elements.join('|')); // Fire|Air|Water
-
+console.log(elements.toString()); // Fire,Air,Water
 
 let joinedElements = elements.join(', ');
 console.log(joinedElements); // Fire, Air, Water
-
+*/
 
 
 //  node index.js
