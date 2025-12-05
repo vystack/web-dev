@@ -511,7 +511,6 @@ for (let i = 0; i <arr.length; i++) {
 for(let num of arr){
   console.log(num);
 } 
-*/
 
 // Combine Arrays using concat method and spread operator 
 let arr1 = [1, 2, 3];
@@ -529,5 +528,13 @@ console.log(combineArr1); // [ 1, 2, 3, 4, 5, 6, 'vishal', 2, true ]
 // spread operator
 let combineArr2 = [...arr1, ...arr2, ...arr3];
 console.log(combineArr2); // [ 1, 2, 3, 4, 5, 6, 'vishal', 2, true ]
+*/
 
-//node index.js
+// Spread Operator in JavaScript
+const arr1 =[1, 4];
+const arr2 = [2, 3];
+const arr3 = [arr1[0], ...arr2, arr1[1]];
+
+console.log(arr3); // [ 1, 2, 3, 4 ]
+
+//  node index.js
