@@ -208,7 +208,11 @@ console.log(arr3); // [ 1, 2, 3, 4 ]
 let aar5 = ['Mango', 'apple', 'Kiwi', 'Banana', 'Orange'];
 let arr6 = aar5.sort((a,b) => a.localeCompare(b)); // using spread operator to create a copy and then sort
 console.log(arr6); // [ 'Apple', 'Banana', 'Kiwi', 'Mango', 'Orange' ] 
+
+let arr7 = aar5.concat().sort((a,b) => a.localeCompare(b)); // using concat to create a copy and then sort
+console.log(arr7); // [ 'Apple', 'Banana', 'Kiwi', 'Mango', 'Orange' ]
 */
+
 
 
 //  node practice.js
