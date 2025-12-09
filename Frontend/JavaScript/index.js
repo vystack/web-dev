@@ -603,6 +603,9 @@ console.log(user);
 // Read
 console.log(user.name); // Vishal
 console.log(user["age"]); // 18 
+// Update
+user.age = 20; // updating age
+console.log(user);
 
 
 
