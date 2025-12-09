@@ -585,5 +585,7 @@ for(let n of num){
 }
 */
 
+// objects in JavaScript
+
 
 //  node index.js
