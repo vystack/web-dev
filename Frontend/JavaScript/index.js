@@ -586,6 +586,15 @@ for(let n of num){
 */
 
 // objects in JavaScript
+// key -value pair
+let user = {
+  name: "Vishal",
+  age: 18,
+  emailId: "abc@gmail.com",
+  isLoggedIn: true,
+  lastLoginDays: ["Monday", "Friday"],
+}
+
 
 
 //  node index.js
