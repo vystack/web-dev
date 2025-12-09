@@ -606,7 +606,8 @@ console.log(user["age"]); // 18
 // Update
 user.age = 20; // updating age
 console.log(user);
-
+// Delete
+delete user.isLoggedIn; // deleting isLoggedIn 
 
 
 //  node index.js
