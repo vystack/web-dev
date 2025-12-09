@@ -594,7 +594,10 @@ let user = {
   isLoggedIn: true,
   lastLoginDays: ["Monday", "Friday"],
 }
-console.log(typeof user, user); // object { name: 'Vishal', age: 18, emailId: '
+// console.log(typeof user, user); // object { name: 'Vishal', age: 18, emailId: '
+
+// CRUD operations in object
+
 
 
 //  node index.js
