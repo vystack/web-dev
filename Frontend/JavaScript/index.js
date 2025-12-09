@@ -600,6 +600,9 @@ let user = {
 // Create
 user.country = "India"; // adding new key-value pair
 console.log(user);
+// Read
+console.log(user.name); // Vishal
+console.log(user["age"]); // 18 
 
 
 
