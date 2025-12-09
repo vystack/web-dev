@@ -608,6 +608,7 @@ user.age = 20; // updating age
 console.log(user);
 // Delete
 delete user.isLoggedIn; // deleting isLoggedIn 
-
+// key-value pair
+console.log(user);
 
 //  node index.js
