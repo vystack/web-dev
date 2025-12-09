@@ -597,6 +597,9 @@ let user = {
 // console.log(typeof user, user); // object { name: 'Vishal', age: 18, emailId: '
 
 // CRUD operations in object
+// Create
+user.country = "India"; // adding new key-value pair
+console.log(user);
 
 
 
