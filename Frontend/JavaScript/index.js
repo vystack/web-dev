@@ -594,7 +594,7 @@ let user = {
   isLoggedIn: true,
   lastLoginDays: ["Monday", "Friday"],
 }
-
+console.log(typeof user, user); // object { name: 'Vishal', age: 18, emailId: '
 
 
 //  node index.js
