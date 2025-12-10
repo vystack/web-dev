@@ -585,7 +585,7 @@ for(let n of num){
 }
 */
 
-// objects in JavaScript
+/* objects in JavaScript
 // key -value pair
 let user = {
   name: "Vishal",
@@ -610,5 +610,13 @@ console.log(user);
 delete user.isLoggedIn; // deleting isLoggedIn 
 // key-value pair
 console.log(user);
+*/
+
+
+
+
+
+
+
 
 //  node index.js
