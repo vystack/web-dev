@@ -213,6 +213,18 @@ let arr7 = aar5.concat().sort((a,b) => a.localeCompare(b)); // using concat to c
 console.log(arr7); // [ 'Apple', 'Banana', 'Kiwi', 'Mango', 'Orange' ]
 */
 
+/*object 
+
+const user ={
+    name: "Vishal",
+    age: 22,
+    "user id": 12345
+}
+user["Home City"] = "Delhi";
+console.log(user);
+*/
+
+
 
 
 //  node practice.js
