@@ -237,6 +237,6 @@ Assignment Operators: =, +=, -=, *=, /=, %=
 
 /* conditional statements in JavaScript
 if, 
-
+else if, 
 
 //  node practice.js
