@@ -232,7 +232,8 @@ Falsy values: false, 0, "", null, undefined, NaN
 Arithmetic Operators: +, -, *, /, %, ++, --
 Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
 Logical Operators: &&, ||, !
-
+Assignment Operators: =, +=, -=, *=, /=, %=
+*/
 
 
 
