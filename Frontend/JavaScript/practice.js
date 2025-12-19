@@ -229,6 +229,7 @@ Truthy values: All values that are not falsy
 Falsy values: false, 0, "", null, undefined, NaN
 */
  /* operators in JavaScript
+Arithmetic Operators: +, -, *, /, %, ++, --
 
 
 
