@@ -230,7 +230,7 @@ Falsy values: false, 0, "", null, undefined, NaN
 */
  /* operators in JavaScript
 Arithmetic Operators: +, -, *, /, %, ++, --
-
+Comparison Operators: ==, ===, !=, !==, >, <, >=, <=
 
 
 
