@@ -224,6 +224,7 @@ user["Home City"] = "Delhi";
 console.log(user);
 */
 
+/* truthy and falsy values in JavaScript
 
 
 
