@@ -225,7 +225,8 @@ console.log(user);
 */
 
 /* truthy and falsy values in JavaScript
-
+Truthy values: All values that are not falsy
+*/
 
 
 
