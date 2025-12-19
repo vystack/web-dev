@@ -239,5 +239,9 @@ Assignment Operators: =, +=, -=, *=, /=, %=
 if, 
 else if, 
 else, 
+switch
+*/
+
+
 
 //  node practice.js
