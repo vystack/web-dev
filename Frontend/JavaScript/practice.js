@@ -235,6 +235,8 @@ Logical Operators: &&, ||, !
 Assignment Operators: =, +=, -=, *=, /=, %=
 */
 
+/* conditional statements in JavaScript
+
 
 
 //  node practice.js
