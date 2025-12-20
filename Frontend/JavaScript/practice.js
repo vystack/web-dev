@@ -245,5 +245,5 @@ switch
 /* array methods in JavaScript
 push()
 pop()
-
+shift()
 //  node practice.js
