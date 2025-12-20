@@ -248,5 +248,8 @@ pop()
 shift()
 unshift()
 splice()
+slice()
+
+
 
 //  node practice.js
