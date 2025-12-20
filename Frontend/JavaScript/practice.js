@@ -247,4 +247,6 @@ push()
 pop()
 shift()
 unshift()
+splice()
+
 //  node practice.js
