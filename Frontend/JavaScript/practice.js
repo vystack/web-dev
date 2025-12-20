@@ -253,5 +253,7 @@ indexOf()
 includes()
 forEach()
 map()
+filter()
+
 
 //  node practice.js
