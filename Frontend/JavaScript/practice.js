@@ -250,6 +250,6 @@ unshift()
 splice()
 slice()
 indexOf()
-
+includes()
 
 //  node practice.js
