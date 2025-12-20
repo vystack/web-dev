@@ -267,5 +267,11 @@ let removedFruit = fruits.pop();
 console.log(fruits); // [ 'apple', 'banana' ]
 console.log(removedFruit); // orange
 */
+/* shift method example 
+let fruits = ['apple', 'banana', 'orange'];
+let removedFruit = fruits.shift();
+console.log(fruits); // [ 'banana', 'orange' ]
+console.log(removedFruit); // apple
+*/
 
 //  node practice.js
