@@ -252,6 +252,6 @@ slice()
 indexOf()
 includes()
 forEach()
-
+map()
 
 //  node practice.js
