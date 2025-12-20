@@ -256,5 +256,10 @@ map()
 filter()
 reduce()
 */
+/* push method example
+let fruits = ['apple', 'banana'];
+fruits.push('orange');
+console.log(fruits); // [ 'apple', 'banana', 'orange' ]
+*/
 
 //  node practice.js
