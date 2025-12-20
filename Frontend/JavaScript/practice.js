@@ -244,6 +244,6 @@ switch
 
 /* array methods in JavaScript
 push()
-
+pop()
 
 //  node practice.js
