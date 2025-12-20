@@ -254,6 +254,7 @@ includes()
 forEach()
 map()
 filter()
-
+reduce()
+*/
 
 //  node practice.js
