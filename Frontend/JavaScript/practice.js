@@ -242,6 +242,8 @@ else,
 switch
 */
 
+/* array methods in JavaScript
+
 
 
 //  node practice.js
