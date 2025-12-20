@@ -249,7 +249,7 @@ shift()
 unshift()
 splice()
 slice()
-
+indexOf()
 
 
 //  node practice.js
