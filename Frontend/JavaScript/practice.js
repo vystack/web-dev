@@ -251,5 +251,7 @@ splice()
 slice()
 indexOf()
 includes()
+forEach()
+
 
 //  node practice.js
