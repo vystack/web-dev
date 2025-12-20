@@ -243,7 +243,7 @@ switch
 */
 
 /* array methods in JavaScript
-
+push()
 
 
 //  node practice.js
