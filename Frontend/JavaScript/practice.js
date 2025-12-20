@@ -261,5 +261,11 @@ let fruits = ['apple', 'banana'];
 fruits.push('orange');
 console.log(fruits); // [ 'apple', 'banana', 'orange' ]
 */
+/* pop method example
+let fruits = ['apple', 'banana', 'orange'];
+let removedFruit = fruits.pop();
+console.log(fruits); // [ 'apple', 'banana' ]
+console.log(removedFruit); // orange
+*/
 
 //  node practice.js
