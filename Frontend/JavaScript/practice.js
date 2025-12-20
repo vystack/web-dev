@@ -273,5 +273,10 @@ let removedFruit = fruits.shift();
 console.log(fruits); // [ 'banana', 'orange' ]
 console.log(removedFruit); // apple
 */
+/* unshift method example
+let fruits = ['banana', 'orange'];
+fruits.unshift('apple');
+console.log(fruits); // [ 'apple', 'banana', 'orange' ]
+*/
 
 //  node practice.js
