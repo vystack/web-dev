@@ -286,4 +286,5 @@ console.log(fruits); // [ 'apple', 'grape', 'banana', 'orange' ]
 
 
 
+
 //  node practice.js
