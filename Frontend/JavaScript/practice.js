@@ -284,7 +284,4 @@ fruits.splice(1, 0, 'grape');  // at index 1, remove 0 elements, add 'grape'
 console.log(fruits); // [ 'apple', 'grape', 'banana', 'orange' ]
 */
 
-
-
-
 //  node practice.js
