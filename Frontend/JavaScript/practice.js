@@ -284,4 +284,9 @@ fruits.splice(1, 0, 'grape');  // at index 1, remove 0 elements, add 'grape'
 console.log(fruits); // [ 'apple', 'grape', 'banana', 'orange' ]
 */
 
+/* array*/
+let arrNum = [10, 20, 30, 40, 50];
+
+
+
 //  node practice.js
