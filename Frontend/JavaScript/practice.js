@@ -289,5 +289,4 @@ let arrNum = [10, 20, 30, 40, 50];
 console.log(arrNum); // [ 10, 20, 30, 40, 50 ]
 console.log(arrNum.length); // 5
 
-
 //  node practice.js
