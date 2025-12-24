@@ -300,6 +300,7 @@ console.log(arrNum); // [ 20, 30, 40, 50, 100 ]
 let arrStr = ['Mango', 'Apple', 'Kiwi', 'Banana', 'Orange'];
 console.log(arrStr); // [ 'Mango', 'Apple', 'Kiwi', 'Banana', 'Orange' ]
 console.log(arrStr.length); // 5
-
+arrStr.push('Pineapple');
+console.log(arrStr); // [ 'Mango', 'Apple', 'Kiwi', 'Banana', 'Orange', 'Pineapple' ]
 
 //  node practice.js
