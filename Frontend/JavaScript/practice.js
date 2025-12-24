@@ -298,6 +298,6 @@ console.log(arrNum); // [ 20, 30, 40, 50, 100 ]
 
 /* Array of Strings
 let arrStr = ['Mango', 'Apple', 'Kiwi', 'Banana', 'Orange'];
-
+console.log(arrStr); // [ 'Mango', 'Apple', 'Kiwi', 'Banana', 'Orange' ]
 
 //  node practice.js
