@@ -284,7 +284,7 @@ fruits.splice(1, 0, 'grape');  // at index 1, remove 0 elements, add 'grape'
 console.log(fruits); // [ 'apple', 'grape', 'banana', 'orange' ]
 */
 
-/* array
+/* array Number
 let arrNum = [10, 20, 30, 40, 50];
 console.log(arrNum); // [ 10, 20, 30, 40, 50 ]
 console.log(arrNum.length); // 5
@@ -295,6 +295,9 @@ console.log(arrNum); // [ 100, 20, 30, 40, 50 ]
 arrNum.sort((a,b)=> a-b);
 console.log(arrNum); // [ 20, 30, 40, 50, 100 ]
 */
+
+/* Array of Strings
+let arrStr = ['Mango', 'Apple', 'Kiwi', 'Banana', 'Orange'];
 
 
 //  node practice.js
