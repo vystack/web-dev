@@ -306,4 +306,7 @@ arrStr.sort((a,b) => a.localeCompare(b));
 console.log(arrStr); // [ 'Apple', 'Banana', 'Kiwi', 'Mango', 'Orange', 'Pineapple' ]
 */
 
+
+
+
 //  node practice.js
