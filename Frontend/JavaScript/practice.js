@@ -308,5 +308,4 @@ console.log(arrStr); // [ 'Apple', 'Banana', 'Kiwi', 'Mango', 'Orange', 'Pineapp
 
 
 
-
 //  node practice.js
